@@ -1,0 +1,31 @@
+.site-nav {
+    margin: 0;
+    display: flex;
+    gap: 50px;
+    display: none;
+}
+
+.site-nav__link {
+    color: var(--title-text-color);
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: block;
+    .current {
+            color: var(--accent-color);
+        }
+}
+
+
+
+.contacts__link {
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

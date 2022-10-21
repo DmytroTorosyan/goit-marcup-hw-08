@@ -1,0 +1,38 @@
+.feature {
+    background-color: var(--primary-white-color);
+    padding-bottom: 60px;
+    padding-top: 60px;
+    
+}
+
+.feature__title {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.feature__item {
+    
+}
+
+.feature__discription {
+    line-height: 1.71;
+}
+
+.feature__image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    margin-bottom: 30px;
+    background: #F5F4FA;
+    border-radius: 4px;
+}
+
+.feature__icon {
+    display: block;
+
+}

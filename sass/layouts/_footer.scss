@@ -1,0 +1,141 @@
+.footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.footer__logo {
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.logo__part--white {
+    color: var(--primary-white-color);
+}
+
+.footer__email,
+.footer__phone,
+.footer__address {
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.71em;
+    letter-spacing: 0.03em;
+}
+
+.footer__contacts {
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+    li {
+        text-align: center;
+    }
+}
+
+.footer__address {
+    color: var(--primary-white-color);
+}
+
+.footer__navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+
+.footer__join {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.footer__social {
+    width: 206px;
+    height: 80px;
+}
+
+
+.footer__social-list {
+    display: flex;
+    gap: 10px;
+}
+
+.footer__social-icon {
+    fill: var(--primary-white-color);
+}
+
+.footer__social-item {
+    width: 44px;
+    height: 44px;
+}
+
+.footer__social-link {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255, 10%);
+    border-radius: 50%;
+    transition: transform 250ms;
+    animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    &:hover,
+    &:focus {
+            background-color: var(--accent-color);
+        }
+}
+
+.footer__mailing {
+    width: 100%;
+}
+
+.footer__input-email {
+    display: block;
+    width: 100%;
+    height: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background-color: #2F303A;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    color: var(--primary-white-color);
+    &::placeholder {
+            font-size: 16px;
+            line-height: 1.25;
+            letter-spacing: 0.03em;
+            color: rgba(255, 255, 255, 0.6);
+        }
+}
+
+.footer__form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+.footer__btn {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 28px;
+    width: 200px;
+    height: 50px;
+    background-color: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    border: 0;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
