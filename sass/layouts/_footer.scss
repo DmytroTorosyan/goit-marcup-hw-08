@@ -39,6 +39,19 @@
     flex-direction: column;
     align-items: center;
     gap: 60px;
+    @media (min-width: 768px) {
+       flex-wrap: wrap;
+       flex-direction: row;
+       justify-content: space-around;
+       align-items: baseline;
+    }
+   
+ 
+}
+
+.footer__logo-contacts {
+    max-width: 231px;
+    width: 100%
 }
 
 .footer__join {
@@ -90,6 +103,10 @@
 
 .footer__mailing {
     width: 100%;
+    max-width: 450px;
+    @media (min-width: 1200px) {
+        max-width: 570px;
+    }
 }
 
 .footer__input-email {
@@ -117,6 +134,9 @@
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    @media (min-width: 1200px) {
+        flex-direction: row;
+    }
 }
 
 

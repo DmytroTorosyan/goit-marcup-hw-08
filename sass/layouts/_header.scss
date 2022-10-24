@@ -21,11 +21,17 @@
     align-items: center;
     justify-content: space-between;
     height: 60px;
+    @media (min-width: 768px) {
+        height: 80px;
+    }
 }
 
 .header__navigation {
     display: flex;
     align-items: center;
+    @media (min-width: 768px) {
+        gap: 87px;
+    }
 }
 
 .menu-toggle-header {
@@ -33,6 +39,9 @@
     height: 40px;
     background: url("../images/menu_24px.svg") no-repeat center;
     border: 0;
+    @media (min-width: 768px) {
+        display: none;
+    }
 }
 
 .contacts {
@@ -42,6 +51,16 @@
 
 .header__contacts {
     display: none;
+    @media (min-width: 768px) {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+    }
+    @media (min-width: 1200px) {
+        gap: 50px;
+        flex-direction: row;
+    }
 }
 
 .contacts__icon {

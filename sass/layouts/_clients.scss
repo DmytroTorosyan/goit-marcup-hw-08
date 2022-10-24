@@ -4,6 +4,10 @@ $clients-list-gap:30px;
     background-color: var(--primary-white-color);
     padding-top: 60px;
     padding-bottom: 60px;
+    @media (min-width: 1200px) {
+            padding-top: 94px;
+            padding-bottom: 94px;
+        }
 }
 
 .clients__title {
@@ -12,6 +16,11 @@ $clients-list-gap:30px;
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
+    @media (min-width: 1200px) {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+    }
 }
 
 .clients__list {
@@ -39,5 +48,11 @@ $clients-list-gap:30px;
 
 .clients__item {
     width: calc(100%/2 - $clients-list-gap/2);
+    @media (min-width: 768px) {
+        width: calc((100% - 60px) / 3);
+    }
+    @media (min-width: 1200px) {
+        width: calc((100% - 150px) / 6);
+        }
 }
 

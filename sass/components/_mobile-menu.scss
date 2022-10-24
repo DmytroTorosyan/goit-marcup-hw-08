@@ -18,6 +18,12 @@
         transform: translateX(0);
     }
 
+        @media (min-width: 768px) {
+            display: none;
+        }
+
+
+
     .menu-toggle {
         position: absolute;
         top: 16px;
@@ -67,6 +73,7 @@
     .contacts__soc {
         display: flex;
         gap: 10px;
+        flex-wrap: wrap;
     }
 
     .contacts__soc-item {

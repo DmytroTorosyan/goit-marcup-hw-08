@@ -9,9 +9,8 @@
 .section-list {
     display: flex;
     gap: 30px;
-    flex-direction: column;
+    flex-wrap: wrap;
     align-items: stretch;
-       
 }
 
 .link {
