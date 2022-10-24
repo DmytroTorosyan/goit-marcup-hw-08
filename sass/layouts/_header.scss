@@ -2,6 +2,7 @@
      border-bottom: 1px solid #ECECEC;
     .link.current {
             position: relative;
+            color: var(--accent-color);
     
             &::after {
                 content: "";
